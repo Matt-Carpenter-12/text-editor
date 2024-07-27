@@ -2,7 +2,7 @@ import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
 import '../css/style.css';
-
+ console.log ("Hello webpack")
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
